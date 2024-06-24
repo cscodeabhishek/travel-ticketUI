@@ -1,0 +1,194 @@
+.travel-card {
+    display: flex;
+    padding: 24px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    border: 1px solid #E5E5E5;
+    background: #FFF;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.travel-card-div1 {
+    display: flex;
+    width: 65px;
+    padding: 8px 12px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+}
+
+.travel-card-div2 {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.travel-card-div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.travel-card-div4 {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+    flex-shrink: 0;
+
+}
+
+
+.travel-card-inner-text {
+    color: var(--red-600, #D91515);
+}
+
+.travel-card-inner-number {
+    color: var(--Blackish, #3F3F3F);
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+.travel-card-inner-text-month {
+    color: var(--Blackish, #3F3F3F);
+    font-weight: 600;
+}
+
+.travel-depart-text {
+    color: #555;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.36px;
+    column-gap: 4px;
+}
+
+.travel-depart-timing {
+    color: #919193;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    display: flex;
+    column-gap: 5px;
+}
+
+.time {
+
+    color: black;
+}
+
+.travel-airport {
+    display: flex;
+    flex-direction: column;
+}
+
+.travel-terminal {
+    color: #555;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.travel-terminal2 {
+    color: #919193;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.travel-flight-logo {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0px;
+    align-items: center;
+    row-gap: 5px;
+}
+
+.pnr {
+    display: flex;
+    align-items: center;
+    color: #555;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.tc-inner-cd {
+    display: flex;
+    width: 100%;
+}
+
+.vistara {
+    color: #919193;
+    font-size: 10px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.vistara-time {
+    color: #919193;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.travel-view-detail {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding: 10px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 1px;
+    background: #1D4E75;
+}
+
+.travel-view-detail-button {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.arrow-img {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+/* detail */
+.travel-card-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    row-gap: 8px;
+}
